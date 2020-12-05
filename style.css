@@ -17,11 +17,11 @@ body {
     color: #9195dc;
     font-family: 'Nerko One', cursive;
   }
-#paragraph1 {
+.paragraph {
     font-family: 'Fira Sans', sans-serif;
     margin-left: 250px;
     margin-right: 250px;
-    font-size: 40px;
+    font-size: 50px;
     color: #F49D37;
   }
 #sec1 {
@@ -45,11 +45,41 @@ body {
     font-size: 30px;
     color: #06d6a0;
 }
+.menulinks {
+    text-decoration: none;
+    color: #06d6a0;
+}
 .link:hover {
     background: linear-gradient(#3C91E6 0%, #f94144 200%);
     
 }
 #menu {
     list-style: none;
-    float: right;
+    position: fixed;
+}
+#sec3 {
+  background: linear-gradient(#43aa8b 0%, #05204A 100%);
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.vg_img {
+  height: 500px;
+  width: 50%px;
+}
+.vg_links {
+  color: #9195dc;
+}
+#sec4 {
+  background: linear-gradient(#05204A 0%, #F45B69 100%);
+  padding-top: 1%;
+  padding-bottom: 1%;
+}#sec5 {
+  background: linear-gradient(#F45B69 0%, rgb(0, 255, 55) 100%);
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+#sec6 {
+  background: linear-gradient(rgb(0, 255, 55) 0%, #f81762 100%);
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
