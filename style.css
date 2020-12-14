@@ -1,6 +1,9 @@
 body {
     text-align: center;
   }
+html {
+    scroll-behavior: smooth;
+}
 #img1 {
     height: 800px;
     border-radius: 50px;
@@ -82,4 +85,14 @@ body {
   background: linear-gradient(rgb(0, 255, 55) 0%, #f81762 100%);
   padding-top: 1%;
   padding-bottom: 1%;
+}
+.imginspa {
+  transition: transform.2s;
+  height: 500px;
+  border-width: 20px;
+  border-style: outset;
+  border-color: rgb(28, 89, 158);
+}
+.imginspa:hover {
+  transform: scale(0.9);
 }
